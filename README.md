@@ -25,10 +25,11 @@ You can refine the count by cleaning the string prior to splitting or validating
 
 Finally,print the number of words and display the output.
 ## PROGRAM:
+
 ```python
-Program to find the gcd of a number using function.
-Developed by: Mohammed Faizal.J
-RegisterNumber: 22003412
+#Program to find the gcd of a number using function.
+#Developed by: Mohammed Faizal.J
+#RegisterNumber: 22003412
 num_words = 0
 with open ('myfile.txt','r') as file1:
     for i in file1:
@@ -36,6 +37,7 @@ with open ('myfile.txt','r') as file1:
         num_words +=len(word)
 print("Number of words ={}".format(num_words))
 ```
+
 ### OUTPUT:
 ![c](https://user-images.githubusercontent.com/120553195/214854434-073482ee-f3d4-4381-9f23-dc34e7242d1b.png)
 ![w](https://user-images.githubusercontent.com/120553195/214854466-fc61be9a-10ce-465c-97da-cad916b5bdcc.png)
